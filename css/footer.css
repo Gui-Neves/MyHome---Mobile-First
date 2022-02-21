@@ -1,0 +1,17 @@
+/* mobile & tablet*/
+@media screen and (min-width:200px){
+    .footer{
+        padding-bottom: 0px;
+        height: 30px;
+        padding-top: 15px;
+        text-align: center;
+        font-size: 0.9em;
+        background-color: rgb(255,216,111);
+    }
+}
+/*desktop*/
+@media (min-width: 900px){
+    .footer{
+        padding-bottom: 300px;
+    }
+}

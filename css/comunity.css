@@ -1,0 +1,91 @@
+/*mobile*/
+@media screen and (min-width: 200px){
+    .plane-image{
+        display: block;
+    }
+    .our-comunity{
+        background-color: rgb(255,216,111);
+    }
+    .comunity{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .comunity--background-color{
+        background-color: rgb(255,216,111);
+    }
+    .comunity__images{
+        width: 90%;
+        height: 170px;
+        padding-top: 30px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .comunity__images--font-type{
+        color: white;
+        font-weight: bold;
+        font-size: 1.4em;
+        text-shadow: 3px 2px 4px black;
+    }
+    .comunity__title{
+        box-sizing: border-box;
+        margin-left: 5%;
+        padding-top: 30px;
+        margin-bottom: 30px;
+    }
+    .comunity__title--font-type{
+        font-weight: bold;
+        font-size: 1.6em;
+    }
+    .plane-image{
+        height: 600px;
+        background-image: url(../images/room-mobile.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        display: none;
+    }
+    .image1{
+        background-image: url(../images/travelling.jpg);
+        background-repeat: no-repeat;
+    }
+    .image2{
+        background-image: url(../images/hosting.jpg);
+        background-repeat: no-repeat;
+    }
+    .image3{
+        background-image: url(../images/tellStory.jpg);
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (min-width: 1790px){
+    .comunity__title{
+        margin-left: 11%;
+    }
+}
+/*tablet*/
+@media screen and (min-width: 560px){
+    .comunity{
+        margin: auto;
+    }
+    .plane-image{
+        display: none;
+    }
+    .comunity__images{
+        width: 480px;
+    }
+}
+/*desktop*/
+@media (min-width: 900px){
+    .comunity{
+        width: 90%;
+        max-width: 1440px;
+        flex-direction: row;
+    }
+    .comunity__title{
+        margin-left: 7%;
+    }
+}
+

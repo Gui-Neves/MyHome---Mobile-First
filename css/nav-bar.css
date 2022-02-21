@@ -1,0 +1,60 @@
+/*mobile*/
+@media screen and (min-width:200px){
+    .nav-bar{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 15px;
+        text-shadow: 3px 2px 4px black;
+        background-color: rgb(244, 223, 42);
+    }
+    .nav-bar__title{
+        font-family: 'Roboto';
+        color: white;
+        text-shadow: 3px 2px 4px black;
+        font-size: 1.3em;
+    }
+    .nav-bar__form{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 5px;
+    }
+     .nav-bar__form__input{
+        border: none;
+        font-size: 1.5em;
+        height: 35px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+}
+/*tablet*/
+@media screen and (min-width: 560px){
+    .nav-bar{    
+        background-color:transparent;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }   
+    .nav-bar__form{
+        flex-direction: column;
+
+    }
+    .nav-bar__form__input{
+        margin-bottom: 10px;
+    }
+    .nav-bar__title{
+        font-size: 2em;   
+    }
+}
+/*desktop*/
+@media (min-width:900px){
+    .nav-bar{
+        padding-top: 60px;
+        padding-bottom: 77px; 
+    }  
+    .nav-bar__form{
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}

@@ -1,0 +1,105 @@
+*{
+    font-family: 'Roboto';
+}
+/*mobile*/
+@media screen and (min-width:200px){
+  
+    .header-container__nav__ul__li a {
+        font-weight: bold;
+        color: black;
+        text-decoration: none;
+        font-size: 1.3em;
+        font-family: 'Roboto';
+    }
+    .main-image{
+        background-image: none;
+        background-color: rgb(255,216,111);
+    }
+    .header-container{
+        align-items: flex-start;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .header-container__logo{
+        margin-top: 20px;
+        margin-left: 5%;
+        margin-bottom: 10px;
+    }
+    .header-container__nav{
+        width: 100%;    
+    }
+    .header-container__nav__ul{
+        display: flex;     
+        text-align: center;
+        flex-direction: column; 
+    }
+    .header-container__nav__ul__li:click{    
+        background-color: rgb(216, 172, 35);
+    }
+    .header-container__nav__ul__li{
+        margin: 0%;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        margin-bottom: 5px;
+    }
+    .header-container__nav__ul__li a{
+        color:  black;
+    }
+}
+/*tablet*/
+@media screen and (min-width: 560px){
+    
+    .main-image{
+        background-image: url(../images/room-tablet.jpg);
+    }
+    .header-container{
+        align-items: flex-start;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .header-container__nav{
+        width: 90%; 
+        margin-left: 10%; 
+    }
+    .header-container__nav__ul{
+        margin-top: 10px;
+        flex-direction: row;
+    } 
+    .header-container__nav__ul a{
+        color:  white;
+    }
+    .header-container__nav__ul__li{
+        margin-right: 20px;
+    }
+}
+/*desktop*/
+@media (min-width:900px){
+    
+    .main-image{
+        background-image: url(../images/room.jpg);
+        background-position: center center; 
+    }
+    .header-container__nav__ul__li a {
+        color: black;
+    }
+    .header-container__nav{
+        margin-left: 0;
+    }
+    .header-container{
+        padding-top: 30px;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: row;  
+    }
+    .header-container__nav__ul{
+        flex-direction: row; 
+    }
+    .header-container__nav__ul__li{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        list-style-type: none;
+    }
+}
